@@ -22,7 +22,7 @@ It models a simple **Library System** with classes such as `Person`, `Member`, `
 
 ---
 
-## 🧱 OOP Concepts Explained Simply
+## OOP Concepts Explained Simply
 
 | Concept | Explanation | Example in this project |
 |----------|--------------|--------------------------|

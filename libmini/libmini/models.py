@@ -6,19 +6,16 @@ class Person():
 
 # Defining a class Member that inherits from Person and has an additional attribute member_id.    
 class Member(Person):
-    def __init__(self,name, age, member_id):
+    def __init__(self,name, age):
         # initializing the name and age from the Person's class
         super().__init__(name, age)   
-        # Adding anew attribute specific to member
-        self.member_id = member_id
+        
 
 # Defining a class Librarian that inherits from Person and has an additional attribute employee_id
 class Librarian(Person):
-      def __init__(self,name, age, employee_id):
+      def __init__(self,name, age):
         # initializing the name and age from the Person's class
         super().__init__(name, age)   
-        # Adding anew attribute specific to member
-        self.employee_id = employee_id
 
 
 # Defining a class Book with attributes title, author, and isbn   
